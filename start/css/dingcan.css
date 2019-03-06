@@ -1,0 +1,121 @@
+*{margin:0;padding:0;}
+
+.bx{
+	width: 700px;
+	margin:20px auto;
+}
+
+input{
+	outline: none;
+}
+button{
+	outline: none;
+	cursor: pointer;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearf:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.table tr{
+	height: 35px;
+}
+.table td{
+	text-align: center;
+}
+
+.addChar{
+	outline: none;
+	padding: 3px 5px;
+	border:none;
+	border-radius: 3px;
+	background-color: #FF7F50;
+	cursor: pointer;
+	color: #fff;
+}
+.char{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,.6);
+	width: 300px;
+}
+.char table{
+	width: 100%;
+	padding: 0 10px;
+}
+.char table tr{
+	height: 30px;
+}
+.char table tr td:last-child{
+	color: #FFB90F;
+}
+.tt input{
+	width: 30px;
+	text-align: center;
+}
+.char_head{
+	background-color: #f1f1f1;
+	padding: 10px;
+}
+.kong{
+	cursor: pointer;
+	font-weight: normal;
+	font-size: 16px;
+	margin-left: 20px;
+}
+.charfoot{
+	background-color: #333;
+	height: 35px;
+	line-height: 35px;
+}
+.charfoot span{
+	margin-left: 10px;
+	color: #fff;
+}
+.charfoot button{
+	padding: 3px 5px;
+	height: 25px;
+	margin-right: 10px;
+	margin-top: 5px;
+	border:none;
+	outline: none;
+	background-color: #5cb85c;
+    border-color: #4cae4c;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.charfoot .jiesuan:hover{
+	background-color: #449d44;
+    border-color: #398439;
+}
+.jiajian{
+	width: 15px;
+	height: 20px;
+	border: none;
+	background-color: #ddd;
+	border-radius:5px 0px 0px 5px;
+}
+.jia{
+	border-radius:0px 5px 5px 0px;
+}
+.shuzi{
+	height: 16px;
+	width: 30px;
+	text-align: center;
+}
+.charfoot .wu{
+	border-color: #ccc;
+    background-color: #fff;
+    color: #333;
+    cursor: not-allowed;
+    opacity: .65;
+}
